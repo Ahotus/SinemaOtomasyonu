@@ -16,5 +16,27 @@ namespace SinemaOtomasyonu
         {
             InitializeComponent();
         }
+
+        private void adminGitBT_Click(object sender, EventArgs e)
+        {
+            AdminGİrisYap admin = new AdminGİrisYap();
+            
+            admin.Show();
+            this.Hide();
+        }
+
+        private void calisanGirisBT_Click(object sender, EventArgs e)
+        {
+            CalisanGiris calisangiris = new CalisanGiris();
+            calisangiris.Show();
+            this.Hide();
+        }
+
+        private void musteriGirisBT_Click(object sender, EventArgs e)
+        {
+            MusteriGİris musterigiris = new MusteriGİris();
+            musterigiris.Show();
+            this.Hide();
+        }
     }
 }
