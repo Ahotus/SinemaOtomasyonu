@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace SinemaOtomasyonu
 {
-    public partial class AdminAnaSayfa : Form
+    public partial class SalonEkle : Form
     {
-        public AdminAnaSayfa()
+        public SalonEkle()
         {
             InitializeComponent();
-        }
-
-        private void salonEkleBT_Click(object sender, EventArgs e)
-        {
-            SalonEkle salonekle = new SalonEkle();
-            salonekle.Show();
-            this.Hide();
-            
         }
     }
 }

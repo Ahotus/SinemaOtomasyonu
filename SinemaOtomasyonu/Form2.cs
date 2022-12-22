@@ -51,5 +51,17 @@ namespace SinemaOtomasyonu
             }
             baglan.Close();
         }
+
+        private void sifreyigoster_CheckedChanged(object sender, EventArgs e)
+        {
+            if (sifreyigoster.Checked)
+            {
+                sifreText.PasswordChar = '\0';
+            }
+            else
+            {
+                sifreText.PasswordChar = '*';
+            }
+        }
     }
 }

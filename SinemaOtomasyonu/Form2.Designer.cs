@@ -34,6 +34,7 @@
             this.kAdiText = new System.Windows.Forms.TextBox();
             this.sifreText = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.sifreyigoster = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // label1
@@ -92,12 +93,26 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // sifreyigoster
+            // 
+            this.sifreyigoster.AutoSize = true;
+            this.sifreyigoster.Checked = true;
+            this.sifreyigoster.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.sifreyigoster.Location = new System.Drawing.Point(238, 158);
+            this.sifreyigoster.Name = "sifreyigoster";
+            this.sifreyigoster.Size = new System.Drawing.Size(88, 17);
+            this.sifreyigoster.TabIndex = 19;
+            this.sifreyigoster.Text = "Şifreyi Göster";
+            this.sifreyigoster.UseVisualStyleBackColor = true;
+            this.sifreyigoster.CheckedChanged += new System.EventHandler(this.sifreyigoster_CheckedChanged);
+            // 
             // AdminGİrisYap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(548, 240);
+            this.Controls.Add(this.sifreyigoster);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.sifreText);
             this.Controls.Add(this.kAdiText);
@@ -119,5 +134,6 @@
         private System.Windows.Forms.TextBox kAdiText;
         private System.Windows.Forms.TextBox sifreText;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox sifreyigoster;
     }
 }
