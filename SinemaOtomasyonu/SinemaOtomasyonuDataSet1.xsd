@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema id="SinemaOtomasyonuDataSet" targetNamespace="http://tempuri.org/SinemaOtomasyonuDataSet.xsd" xmlns:mstns="http://tempuri.org/SinemaOtomasyonuDataSet.xsd" xmlns="http://tempuri.org/SinemaOtomasyonuDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+<xs:schema id="SinemaOtomasyonuDataSet1" targetNamespace="http://tempuri.org/SinemaOtomasyonuDataSet1.xsd" xmlns:mstns="http://tempuri.org/SinemaOtomasyonuDataSet1.xsd" xmlns="http://tempuri.org/SinemaOtomasyonuDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
   <xs:annotation>
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
@@ -501,7 +501,7 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)<
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="SinemaOtomasyonuDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="SinemaOtomasyonuDataSet" msprop:Generator_DataSetName="SinemaOtomasyonuDataSet">
+  <xs:element name="SinemaOtomasyonuDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="SinemaOtomasyonuDataSet1" msprop:Generator_DataSetName="SinemaOtomasyonuDataSet1">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:element name="Adminbilgi" msprop:Generator_RowEvHandlerName="AdminbilgiRowChangeEventHandler" msprop:Generator_RowDeletedName="AdminbilgiRowDeleted" msprop:Generator_RowDeletingName="AdminbilgiRowDeleting" msprop:Generator_RowEvArgName="AdminbilgiRowChangeEvent" msprop:Generator_TablePropName="Adminbilgi" msprop:Generator_RowChangedName="AdminbilgiRowChanged" msprop:Generator_RowChangingName="AdminbilgiRowChanging" msprop:Generator_TableClassName="AdminbilgiDataTable" msprop:Generator_RowClassName="AdminbilgiRow" msprop:Generator_TableVarName="tableAdminbilgi" msprop:Generator_UserTableName="Adminbilgi">

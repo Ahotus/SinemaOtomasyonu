@@ -43,6 +43,7 @@
             this.filmEkleBT.TabIndex = 1;
             this.filmEkleBT.Text = "Film Ekle/Güncelle";
             this.filmEkleBT.UseVisualStyleBackColor = false;
+            this.filmEkleBT.Click += new System.EventHandler(this.filmEkleBT_Click);
             // 
             // button2
             // 
@@ -54,6 +55,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Seans  Ekle/Güncelle";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // salonEkleBT
             // 
@@ -78,6 +80,7 @@
             this.Controls.Add(this.filmEkleBT);
             this.Name = "AdminAnaSayfa";
             this.Text = "AdminAnaSayfa";
+            this.Load += new System.EventHandler(this.AdminAnaSayfa_Load);
             this.ResumeLayout(false);
 
         }

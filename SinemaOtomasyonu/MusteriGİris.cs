@@ -38,8 +38,8 @@ namespace SinemaOtomasyonu
             oku = cmd.ExecuteReader();
             if (oku.Read())
             {
-                AdminAnaSayfa adminAnaSayfa = new AdminAnaSayfa();
-                adminAnaSayfa.Show();
+                MusteriAnaSayfa musteriAnaSayfa = new MusteriAnaSayfa();
+                musteriAnaSayfa.Show();
                 this.Hide();
             }
             else
@@ -60,6 +60,11 @@ namespace SinemaOtomasyonu
             {
                 sifreText.PasswordChar = '*';
             }
+        }
+
+        private void MusteriGİris_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

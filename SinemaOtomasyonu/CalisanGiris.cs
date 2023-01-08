@@ -34,8 +34,8 @@ namespace SinemaOtomasyonu
             oku = cmd.ExecuteReader();
             if (oku.Read())
             {
-                AdminAnaSayfa adminAnaSayfa = new AdminAnaSayfa();
-                adminAnaSayfa.Show();
+                CalisanAnaSayfa calisanAnaSayfa = new CalisanAnaSayfa();
+                calisanAnaSayfa.Show();
                 this.Hide();
             }
             else

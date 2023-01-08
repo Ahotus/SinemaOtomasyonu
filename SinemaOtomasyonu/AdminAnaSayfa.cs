@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace SinemaOtomasyonu
 {
@@ -23,6 +25,25 @@ namespace SinemaOtomasyonu
             salonekle.Show();
             this.Hide();
             
+        }
+
+        private void filmEkleBT_Click(object sender, EventArgs e)
+        {
+            FilmEkle film = new FilmEkle();
+            film.Show();
+            this.Hide();
+        }
+
+        private void AdminAnaSayfa_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SeansEkle seans = new SeansEkle();
+            seans.Show();
+            this.Hide();
         }
     }
 }

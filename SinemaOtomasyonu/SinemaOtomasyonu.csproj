@@ -52,11 +52,29 @@
     <Compile Include="AdminAnaSayfa.Designer.cs">
       <DependentUpon>AdminAnaSayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="CalisanAnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalisanAnaSayfa.Designer.cs">
+      <DependentUpon>CalisanAnaSayfa.cs</DependentUpon>
+    </Compile>
     <Compile Include="CalisanGiris.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CalisanGiris.Designer.cs">
       <DependentUpon>CalisanGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmEkle.Designer.cs">
+      <DependentUpon>FilmEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilmEkleKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilmEkleKayit.Designer.cs">
+      <DependentUpon>FilmEkleKayit.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -70,11 +88,17 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="MusteriAnaSayfa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="MusteriAnaSayfa.Designer.cs">
+      <DependentUpon>MusteriAnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalonEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalonEkle.Designer.cs">
+      <DependentUpon>SalonEkle.cs</DependentUpon>
     </Compile>
     <Compile Include="MusteriGİris.cs">
       <SubType>Form</SubType>
@@ -84,16 +108,53 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalonEkleKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalonEkleKayit.Designer.cs">
+      <DependentUpon>SalonEkleKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeansEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeansEkle.Designer.cs">
+      <DependentUpon>SeansEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeansEkleKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeansEkleKayit.Designer.cs">
+      <DependentUpon>SeansEkleKayit.cs</DependentUpon>
+    </Compile>
     <Compile Include="SinemaOtomasyonuDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SinemaOtomasyonuDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="SinemaOtomasyonuDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SinemaOtomasyonuDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SinemaOtomasyonuDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SinemaOtomasyonuDataSet4.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminAnaSayfa.resx">
       <DependentUpon>AdminAnaSayfa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CalisanAnaSayfa.resx">
+      <DependentUpon>CalisanAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CalisanGiris.resx">
       <DependentUpon>CalisanGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmEkle.resx">
+      <DependentUpon>FilmEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmEkleKayit.resx">
+      <DependentUpon>FilmEkleKayit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -101,8 +162,11 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="MusteriAnaSayfa.resx">
+      <DependentUpon>MusteriAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalonEkle.resx">
+      <DependentUpon>SalonEkle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MusteriGİris.resx">
       <DependentUpon>MusteriGİris.cs</DependentUpon>
@@ -116,6 +180,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SalonEkleKayit.resx">
+      <DependentUpon>SalonEkleKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeansEkle.resx">
+      <DependentUpon>SeansEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeansEkleKayit.resx">
+      <DependentUpon>SeansEkleKayit.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -135,6 +208,28 @@
     </None>
     <None Include="SinemaOtomasyonuDataSet.xss">
       <DependentUpon>SinemaOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SinemaOtomasyonuDataSet1.xsc">
+      <DependentUpon>SinemaOtomasyonuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SinemaOtomasyonuDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SinemaOtomasyonuDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SinemaOtomasyonuDataSet1.xss">
+      <DependentUpon>SinemaOtomasyonuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SinemaOtomasyonuDataSet4.xsc">
+      <DependentUpon>SinemaOtomasyonuDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="SinemaOtomasyonuDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SinemaOtomasyonuDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SinemaOtomasyonuDataSet4.xss">
+      <DependentUpon>SinemaOtomasyonuDataSet4.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

@@ -20,9 +20,9 @@ namespace SinemaOtomasyonu {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("SinemaOtomasyonuDataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("SinemaOtomasyonuDataSet4")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class SinemaOtomasyonuDataSet : global::System.Data.DataSet {
+    public partial class SinemaOtomasyonuDataSet4 : global::System.Data.DataSet {
         
         private AdminbilgiDataTable tableAdminbilgi;
         
@@ -40,13 +40,11 @@ namespace SinemaOtomasyonu {
         
         private SeansBilgiDataTable tableSeansBilgi;
         
-        private SeansbilgiTrigDataTable tableSeansbilgiTrig;
-        
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public SinemaOtomasyonuDataSet() {
+        public SinemaOtomasyonuDataSet4() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -57,7 +55,7 @@ namespace SinemaOtomasyonu {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected SinemaOtomasyonuDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected SinemaOtomasyonuDataSet4(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -93,9 +91,6 @@ namespace SinemaOtomasyonu {
                 }
                 if ((ds.Tables["SeansBilgi"] != null)) {
                     base.Tables.Add(new SeansBilgiDataTable(ds.Tables["SeansBilgi"]));
-                }
-                if ((ds.Tables["SeansbilgiTrig"] != null)) {
-                    base.Tables.Add(new SeansbilgiTrigDataTable(ds.Tables["SeansbilgiTrig"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -197,16 +192,6 @@ namespace SinemaOtomasyonu {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Browsable(false)]
-        [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
-        public SeansbilgiTrigDataTable SeansbilgiTrig {
-            get {
-                return this.tableSeansbilgiTrig;
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.BrowsableAttribute(true)]
         [global::System.ComponentModel.DesignerSerializationVisibilityAttribute(global::System.ComponentModel.DesignerSerializationVisibility.Visible)]
         public override global::System.Data.SchemaSerializationMode SchemaSerializationMode {
@@ -247,7 +232,7 @@ namespace SinemaOtomasyonu {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            SinemaOtomasyonuDataSet cln = ((SinemaOtomasyonuDataSet)(base.Clone()));
+            SinemaOtomasyonuDataSet4 cln = ((SinemaOtomasyonuDataSet4)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -295,9 +280,6 @@ namespace SinemaOtomasyonu {
                 }
                 if ((ds.Tables["SeansBilgi"] != null)) {
                     base.Tables.Add(new SeansBilgiDataTable(ds.Tables["SeansBilgi"]));
-                }
-                if ((ds.Tables["SeansbilgiTrig"] != null)) {
-                    base.Tables.Add(new SeansbilgiTrigDataTable(ds.Tables["SeansbilgiTrig"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -380,20 +362,14 @@ namespace SinemaOtomasyonu {
                     this.tableSeansBilgi.InitVars();
                 }
             }
-            this.tableSeansbilgiTrig = ((SeansbilgiTrigDataTable)(base.Tables["SeansbilgiTrig"]));
-            if ((initTable == true)) {
-                if ((this.tableSeansbilgiTrig != null)) {
-                    this.tableSeansbilgiTrig.InitVars();
-                }
-            }
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "SinemaOtomasyonuDataSet";
+            this.DataSetName = "SinemaOtomasyonuDataSet4";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/SinemaOtomasyonuDataSet.xsd";
+            this.Namespace = "http://tempuri.org/SinemaOtomasyonuDataSet4.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableAdminbilgi = new AdminbilgiDataTable();
@@ -412,8 +388,6 @@ namespace SinemaOtomasyonu {
             base.Tables.Add(this.tableSalonbilgi_Trig);
             this.tableSeansBilgi = new SeansBilgiDataTable();
             base.Tables.Add(this.tableSeansBilgi);
-            this.tableSeansbilgiTrig = new SeansbilgiTrigDataTable();
-            base.Tables.Add(this.tableSeansbilgiTrig);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -466,12 +440,6 @@ namespace SinemaOtomasyonu {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private bool ShouldSerializeSeansbilgiTrig() {
-            return false;
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void SchemaChanged(object sender, global::System.ComponentModel.CollectionChangeEventArgs e) {
             if ((e.Action == global::System.ComponentModel.CollectionChangeAction.Remove)) {
                 this.InitVars();
@@ -481,7 +449,7 @@ namespace SinemaOtomasyonu {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+            SinemaOtomasyonuDataSet4 ds = new SinemaOtomasyonuDataSet4();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -548,9 +516,6 @@ namespace SinemaOtomasyonu {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public delegate void SeansBilgiRowChangeEventHandler(object sender, SeansBilgiRowChangeEvent e);
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public delegate void SeansbilgiTrigRowChangeEventHandler(object sender, SeansbilgiTrigRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
@@ -785,7 +750,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet4 ds = new SinemaOtomasyonuDataSet4();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1077,7 +1042,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet4 ds = new SinemaOtomasyonuDataSet4();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1384,7 +1349,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet4 ds = new SinemaOtomasyonuDataSet4();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1676,7 +1641,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet4 ds = new SinemaOtomasyonuDataSet4();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1968,7 +1933,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet4 ds = new SinemaOtomasyonuDataSet4();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2245,7 +2210,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet4 ds = new SinemaOtomasyonuDataSet4();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2527,7 +2492,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet4 ds = new SinemaOtomasyonuDataSet4();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2848,7 +2813,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet4 ds = new SinemaOtomasyonuDataSet4();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2867,298 +2832,6 @@ namespace SinemaOtomasyonu {
                 global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
                 attribute2.Name = "tableTypeName";
                 attribute2.FixedValue = "SeansBilgiDataTable";
-                type.Attributes.Add(attribute2);
-                type.Particle = sequence;
-                global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
-                if (xs.Contains(dsSchema.TargetNamespace)) {
-                    global::System.IO.MemoryStream s1 = new global::System.IO.MemoryStream();
-                    global::System.IO.MemoryStream s2 = new global::System.IO.MemoryStream();
-                    try {
-                        global::System.Xml.Schema.XmlSchema schema = null;
-                        dsSchema.Write(s1);
-                        for (global::System.Collections.IEnumerator schemas = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator(); schemas.MoveNext(); ) {
-                            schema = ((global::System.Xml.Schema.XmlSchema)(schemas.Current));
-                            s2.SetLength(0);
-                            schema.Write(s2);
-                            if ((s1.Length == s2.Length)) {
-                                s1.Position = 0;
-                                s2.Position = 0;
-                                for (; ((s1.Position != s1.Length) 
-                                            && (s1.ReadByte() == s2.ReadByte())); ) {
-                                    ;
-                                }
-                                if ((s1.Position == s1.Length)) {
-                                    return type;
-                                }
-                            }
-                        }
-                    }
-                    finally {
-                        if ((s1 != null)) {
-                            s1.Close();
-                        }
-                        if ((s2 != null)) {
-                            s2.Close();
-                        }
-                    }
-                }
-                xs.Add(dsSchema);
-                return type;
-            }
-        }
-        
-        /// <summary>
-        ///Represents the strongly named DataTable class.
-        ///</summary>
-        [global::System.Serializable()]
-        [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
-        public partial class SeansbilgiTrigDataTable : global::System.Data.TypedTableBase<SeansbilgiTrigRow> {
-            
-            private global::System.Data.DataColumn columnislemid;
-            
-            private global::System.Data.DataColumn columnislemturu;
-            
-            private global::System.Data.DataColumn columndurum;
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public SeansbilgiTrigDataTable() {
-                this.TableName = "SeansbilgiTrig";
-                this.BeginInit();
-                this.InitClass();
-                this.EndInit();
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal SeansbilgiTrigDataTable(global::System.Data.DataTable table) {
-                this.TableName = table.TableName;
-                if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
-                    this.CaseSensitive = table.CaseSensitive;
-                }
-                if ((table.Locale.ToString() != table.DataSet.Locale.ToString())) {
-                    this.Locale = table.Locale;
-                }
-                if ((table.Namespace != table.DataSet.Namespace)) {
-                    this.Namespace = table.Namespace;
-                }
-                this.Prefix = table.Prefix;
-                this.MinimumCapacity = table.MinimumCapacity;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected SeansbilgiTrigDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
-                    base(info, context) {
-                this.InitVars();
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn islemidColumn {
-                get {
-                    return this.columnislemid;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn islemturuColumn {
-                get {
-                    return this.columnislemturu;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn durumColumn {
-                get {
-                    return this.columndurum;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            [global::System.ComponentModel.Browsable(false)]
-            public int Count {
-                get {
-                    return this.Rows.Count;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public SeansbilgiTrigRow this[int index] {
-                get {
-                    return ((SeansbilgiTrigRow)(this.Rows[index]));
-                }
-            }
-            
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public event SeansbilgiTrigRowChangeEventHandler SeansbilgiTrigRowChanging;
-            
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public event SeansbilgiTrigRowChangeEventHandler SeansbilgiTrigRowChanged;
-            
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public event SeansbilgiTrigRowChangeEventHandler SeansbilgiTrigRowDeleting;
-            
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public event SeansbilgiTrigRowChangeEventHandler SeansbilgiTrigRowDeleted;
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void AddSeansbilgiTrigRow(SeansbilgiTrigRow row) {
-                this.Rows.Add(row);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public SeansbilgiTrigRow AddSeansbilgiTrigRow(string islemturu, string durum) {
-                SeansbilgiTrigRow rowSeansbilgiTrigRow = ((SeansbilgiTrigRow)(this.NewRow()));
-                object[] columnValuesArray = new object[] {
-                        null,
-                        islemturu,
-                        durum};
-                rowSeansbilgiTrigRow.ItemArray = columnValuesArray;
-                this.Rows.Add(rowSeansbilgiTrigRow);
-                return rowSeansbilgiTrigRow;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public SeansbilgiTrigRow FindByislemid(int islemid) {
-                return ((SeansbilgiTrigRow)(this.Rows.Find(new object[] {
-                            islemid})));
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public override global::System.Data.DataTable Clone() {
-                SeansbilgiTrigDataTable cln = ((SeansbilgiTrigDataTable)(base.Clone()));
-                cln.InitVars();
-                return cln;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected override global::System.Data.DataTable CreateInstance() {
-                return new SeansbilgiTrigDataTable();
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal void InitVars() {
-                this.columnislemid = base.Columns["islemid"];
-                this.columnislemturu = base.Columns["islemturu"];
-                this.columndurum = base.Columns["durum"];
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            private void InitClass() {
-                this.columnislemid = new global::System.Data.DataColumn("islemid", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnislemid);
-                this.columnislemturu = new global::System.Data.DataColumn("islemturu", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnislemturu);
-                this.columndurum = new global::System.Data.DataColumn("durum", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndurum);
-                this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
-                                this.columnislemid}, true));
-                this.columnislemid.AutoIncrement = true;
-                this.columnislemid.AutoIncrementSeed = -1;
-                this.columnislemid.AutoIncrementStep = -1;
-                this.columnislemid.AllowDBNull = false;
-                this.columnislemid.ReadOnly = true;
-                this.columnislemid.Unique = true;
-                this.columnislemturu.MaxLength = 50;
-                this.columndurum.MaxLength = 50;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public SeansbilgiTrigRow NewSeansbilgiTrigRow() {
-                return ((SeansbilgiTrigRow)(this.NewRow()));
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
-                return new SeansbilgiTrigRow(builder);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected override global::System.Type GetRowType() {
-                return typeof(SeansbilgiTrigRow);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
-                base.OnRowChanged(e);
-                if ((this.SeansbilgiTrigRowChanged != null)) {
-                    this.SeansbilgiTrigRowChanged(this, new SeansbilgiTrigRowChangeEvent(((SeansbilgiTrigRow)(e.Row)), e.Action));
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
-                base.OnRowChanging(e);
-                if ((this.SeansbilgiTrigRowChanging != null)) {
-                    this.SeansbilgiTrigRowChanging(this, new SeansbilgiTrigRowChangeEvent(((SeansbilgiTrigRow)(e.Row)), e.Action));
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
-                base.OnRowDeleted(e);
-                if ((this.SeansbilgiTrigRowDeleted != null)) {
-                    this.SeansbilgiTrigRowDeleted(this, new SeansbilgiTrigRowChangeEvent(((SeansbilgiTrigRow)(e.Row)), e.Action));
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
-                base.OnRowDeleting(e);
-                if ((this.SeansbilgiTrigRowDeleting != null)) {
-                    this.SeansbilgiTrigRowDeleting(this, new SeansbilgiTrigRowChangeEvent(((SeansbilgiTrigRow)(e.Row)), e.Action));
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void RemoveSeansbilgiTrigRow(SeansbilgiTrigRow row) {
-                this.Rows.Remove(row);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-                global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
-                global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
-                global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
-                any1.Namespace = "http://www.w3.org/2001/XMLSchema";
-                any1.MinOccurs = new decimal(0);
-                any1.MaxOccurs = decimal.MaxValue;
-                any1.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
-                sequence.Items.Add(any1);
-                global::System.Xml.Schema.XmlSchemaAny any2 = new global::System.Xml.Schema.XmlSchemaAny();
-                any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1";
-                any2.MinOccurs = new decimal(1);
-                any2.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
-                sequence.Items.Add(any2);
-                global::System.Xml.Schema.XmlSchemaAttribute attribute1 = new global::System.Xml.Schema.XmlSchemaAttribute();
-                attribute1.Name = "namespace";
-                attribute1.FixedValue = ds.Namespace;
-                type.Attributes.Add(attribute1);
-                global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
-                attribute2.Name = "tableTypeName";
-                attribute2.FixedValue = "SeansbilgiTrigDataTable";
                 type.Attributes.Add(attribute2);
                 type.Particle = sequence;
                 global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
@@ -3912,88 +3585,6 @@ namespace SinemaOtomasyonu {
         }
         
         /// <summary>
-        ///Represents strongly named DataRow class.
-        ///</summary>
-        public partial class SeansbilgiTrigRow : global::System.Data.DataRow {
-            
-            private SeansbilgiTrigDataTable tableSeansbilgiTrig;
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            internal SeansbilgiTrigRow(global::System.Data.DataRowBuilder rb) : 
-                    base(rb) {
-                this.tableSeansbilgiTrig = ((SeansbilgiTrigDataTable)(this.Table));
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public int islemid {
-                get {
-                    return ((int)(this[this.tableSeansbilgiTrig.islemidColumn]));
-                }
-                set {
-                    this[this.tableSeansbilgiTrig.islemidColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string islemturu {
-                get {
-                    try {
-                        return ((string)(this[this.tableSeansbilgiTrig.islemturuColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("\'SeansbilgiTrig\' tablosundaki \'islemturu\' sütunun değeri DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableSeansbilgiTrig.islemturuColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string durum {
-                get {
-                    try {
-                        return ((string)(this[this.tableSeansbilgiTrig.durumColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("\'SeansbilgiTrig\' tablosundaki \'durum\' sütunun değeri DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableSeansbilgiTrig.durumColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsislemturuNull() {
-                return this.IsNull(this.tableSeansbilgiTrig.islemturuColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetislemturuNull() {
-                this[this.tableSeansbilgiTrig.islemturuColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsdurumNull() {
-                return this.IsNull(this.tableSeansbilgiTrig.durumColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetdurumNull() {
-                this[this.tableSeansbilgiTrig.durumColumn] = global::System.Convert.DBNull;
-            }
-        }
-        
-        /// <summary>
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
@@ -4264,43 +3855,9 @@ namespace SinemaOtomasyonu {
                 }
             }
         }
-        
-        /// <summary>
-        ///Row event argument class
-        ///</summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public class SeansbilgiTrigRowChangeEvent : global::System.EventArgs {
-            
-            private SeansbilgiTrigRow eventRow;
-            
-            private global::System.Data.DataRowAction eventAction;
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public SeansbilgiTrigRowChangeEvent(SeansbilgiTrigRow row, global::System.Data.DataRowAction action) {
-                this.eventRow = row;
-                this.eventAction = action;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public SeansbilgiTrigRow Row {
-                get {
-                    return this.eventRow;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataRowAction Action {
-                get {
-                    return this.eventAction;
-                }
-            }
-        }
     }
 }
-namespace SinemaOtomasyonu.SinemaOtomasyonuDataSetTableAdapters {
+namespace SinemaOtomasyonu.SinemaOtomasyonuDataSet4TableAdapters {
     
     
     /// <summary>
@@ -4481,7 +4038,7 @@ SELECT Adminid, AdminkAdi, AdminSifre FROM Adminbilgi WHERE (Adminid = @Adminid)
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.AdminbilgiDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet4.AdminbilgiDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -4494,9 +4051,9 @@ SELECT Adminid, AdminkAdi, AdminSifre FROM Adminbilgi WHERE (Adminid = @Adminid)
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.AdminbilgiDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet4.AdminbilgiDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.AdminbilgiDataTable dataTable = new SinemaOtomasyonuDataSet.AdminbilgiDataTable();
+            SinemaOtomasyonuDataSet4.AdminbilgiDataTable dataTable = new SinemaOtomasyonuDataSet4.AdminbilgiDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -4504,14 +4061,14 @@ SELECT Adminid, AdminkAdi, AdminSifre FROM Adminbilgi WHERE (Adminid = @Adminid)
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.AdminbilgiDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet4.AdminbilgiDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet4 dataSet) {
             return this.Adapter.Update(dataSet, "Adminbilgi");
         }
         
@@ -4839,7 +4396,7 @@ SELECT Calisanid, CalisankAdi, CalisanSifre FROM Calisanbilgi WHERE (Calisanid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.CalisanbilgiDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet4.CalisanbilgiDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -4852,9 +4409,9 @@ SELECT Calisanid, CalisankAdi, CalisanSifre FROM Calisanbilgi WHERE (Calisanid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.CalisanbilgiDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet4.CalisanbilgiDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.CalisanbilgiDataTable dataTable = new SinemaOtomasyonuDataSet.CalisanbilgiDataTable();
+            SinemaOtomasyonuDataSet4.CalisanbilgiDataTable dataTable = new SinemaOtomasyonuDataSet4.CalisanbilgiDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -4862,14 +4419,14 @@ SELECT Calisanid, CalisankAdi, CalisanSifre FROM Calisanbilgi WHERE (Calisanid =
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.CalisanbilgiDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet4.CalisanbilgiDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet4 dataSet) {
             return this.Adapter.Update(dataSet, "Calisanbilgi");
         }
         
@@ -5204,7 +4761,7 @@ SELECT FilmNo, FilmAd, FilmTur, Tarih FROM FilmBİlgi WHERE (FilmNo = @FilmNo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.FilmBİlgiDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet4.FilmBİlgiDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -5217,9 +4774,9 @@ SELECT FilmNo, FilmAd, FilmTur, Tarih FROM FilmBİlgi WHERE (FilmNo = @FilmNo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.FilmBİlgiDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet4.FilmBİlgiDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.FilmBİlgiDataTable dataTable = new SinemaOtomasyonuDataSet.FilmBİlgiDataTable();
+            SinemaOtomasyonuDataSet4.FilmBİlgiDataTable dataTable = new SinemaOtomasyonuDataSet4.FilmBİlgiDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -5227,14 +4784,14 @@ SELECT FilmNo, FilmAd, FilmTur, Tarih FROM FilmBİlgi WHERE (FilmNo = @FilmNo)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.FilmBİlgiDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet4.FilmBİlgiDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet4 dataSet) {
             return this.Adapter.Update(dataSet, "FilmBİlgi");
         }
         
@@ -5593,7 +5150,7 @@ SELECT islemId, islemturu, durum FROM FilmBilgi_Trig WHERE (islemId = @islemId)"
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.FilmBilgi_TrigDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet4.FilmBilgi_TrigDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -5606,9 +5163,9 @@ SELECT islemId, islemturu, durum FROM FilmBilgi_Trig WHERE (islemId = @islemId)"
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.FilmBilgi_TrigDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet4.FilmBilgi_TrigDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.FilmBilgi_TrigDataTable dataTable = new SinemaOtomasyonuDataSet.FilmBilgi_TrigDataTable();
+            SinemaOtomasyonuDataSet4.FilmBilgi_TrigDataTable dataTable = new SinemaOtomasyonuDataSet4.FilmBilgi_TrigDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -5616,14 +5173,14 @@ SELECT islemId, islemturu, durum FROM FilmBilgi_Trig WHERE (islemId = @islemId)"
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.FilmBilgi_TrigDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet4.FilmBilgi_TrigDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet4 dataSet) {
             return this.Adapter.Update(dataSet, "FilmBilgi_Trig");
         }
         
@@ -5951,7 +5508,7 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.MusteribilgiDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet4.MusteribilgiDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -5964,9 +5521,9 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.MusteribilgiDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet4.MusteribilgiDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.MusteribilgiDataTable dataTable = new SinemaOtomasyonuDataSet.MusteribilgiDataTable();
+            SinemaOtomasyonuDataSet4.MusteribilgiDataTable dataTable = new SinemaOtomasyonuDataSet4.MusteribilgiDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -5974,14 +5531,14 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.MusteribilgiDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet4.MusteribilgiDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet4 dataSet) {
             return this.Adapter.Update(dataSet, "Musteribilgi");
         }
         
@@ -6304,7 +5861,7 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.SalonbilgiDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet4.SalonbilgiDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6317,9 +5874,9 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.SalonbilgiDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet4.SalonbilgiDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.SalonbilgiDataTable dataTable = new SinemaOtomasyonuDataSet.SalonbilgiDataTable();
+            SinemaOtomasyonuDataSet4.SalonbilgiDataTable dataTable = new SinemaOtomasyonuDataSet4.SalonbilgiDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6327,14 +5884,14 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.SalonbilgiDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet4.SalonbilgiDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet4 dataSet) {
             return this.Adapter.Update(dataSet, "Salonbilgi");
         }
         
@@ -6611,7 +6168,7 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.Salonbilgi_TrigDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet4.Salonbilgi_TrigDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6624,9 +6181,9 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.Salonbilgi_TrigDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet4.Salonbilgi_TrigDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.Salonbilgi_TrigDataTable dataTable = new SinemaOtomasyonuDataSet.Salonbilgi_TrigDataTable();
+            SinemaOtomasyonuDataSet4.Salonbilgi_TrigDataTable dataTable = new SinemaOtomasyonuDataSet4.Salonbilgi_TrigDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6634,14 +6191,14 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.Salonbilgi_TrigDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet4.Salonbilgi_TrigDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet4 dataSet) {
             return this.Adapter.Update(dataSet, "Salonbilgi_Trig");
         }
         
@@ -6886,7 +6443,7 @@ SELECT SeansId, FilmAd, SalonAd, tarih, saat FROM SeansBilgi WHERE (SeansId = @S
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.SeansBilgiDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet4.SeansBilgiDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6899,9 +6456,9 @@ SELECT SeansId, FilmAd, SalonAd, tarih, saat FROM SeansBilgi WHERE (SeansId = @S
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.SeansBilgiDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet4.SeansBilgiDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.SeansBilgiDataTable dataTable = new SinemaOtomasyonuDataSet.SeansBilgiDataTable();
+            SinemaOtomasyonuDataSet4.SeansBilgiDataTable dataTable = new SinemaOtomasyonuDataSet4.SeansBilgiDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6909,14 +6466,14 @@ SELECT SeansId, FilmAd, SalonAd, tarih, saat FROM SeansBilgi WHERE (SeansId = @S
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.SeansBilgiDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet4.SeansBilgiDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet4 dataSet) {
             return this.Adapter.Update(dataSet, "SeansBilgi");
         }
         
@@ -7123,367 +6680,6 @@ SELECT SeansId, FilmAd, SalonAd, tarih, saat FROM SeansBilgi WHERE (SeansId = @S
     }
     
     /// <summary>
-    ///Represents the connection and commands used to retrieve and save data.
-    ///</summary>
-    [global::System.ComponentModel.DesignerCategoryAttribute("code")]
-    [global::System.ComponentModel.ToolboxItem(true)]
-    [global::System.ComponentModel.DataObjectAttribute(true)]
-    [global::System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner" +
-        ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
-    [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-    public partial class SeansbilgiTrigTableAdapter : global::System.ComponentModel.Component {
-        
-        private global::System.Data.SqlClient.SqlDataAdapter _adapter;
-        
-        private global::System.Data.SqlClient.SqlConnection _connection;
-        
-        private global::System.Data.SqlClient.SqlTransaction _transaction;
-        
-        private global::System.Data.SqlClient.SqlCommand[] _commandCollection;
-        
-        private bool _clearBeforeFill;
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public SeansbilgiTrigTableAdapter() {
-            this.ClearBeforeFill = true;
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected internal global::System.Data.SqlClient.SqlDataAdapter Adapter {
-            get {
-                if ((this._adapter == null)) {
-                    this.InitAdapter();
-                }
-                return this._adapter;
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        internal global::System.Data.SqlClient.SqlConnection Connection {
-            get {
-                if ((this._connection == null)) {
-                    this.InitConnection();
-                }
-                return this._connection;
-            }
-            set {
-                this._connection = value;
-                if ((this.Adapter.InsertCommand != null)) {
-                    this.Adapter.InsertCommand.Connection = value;
-                }
-                if ((this.Adapter.DeleteCommand != null)) {
-                    this.Adapter.DeleteCommand.Connection = value;
-                }
-                if ((this.Adapter.UpdateCommand != null)) {
-                    this.Adapter.UpdateCommand.Connection = value;
-                }
-                for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
-                    if ((this.CommandCollection[i] != null)) {
-                        ((global::System.Data.SqlClient.SqlCommand)(this.CommandCollection[i])).Connection = value;
-                    }
-                }
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        internal global::System.Data.SqlClient.SqlTransaction Transaction {
-            get {
-                return this._transaction;
-            }
-            set {
-                this._transaction = value;
-                for (int i = 0; (i < this.CommandCollection.Length); i = (i + 1)) {
-                    this.CommandCollection[i].Transaction = this._transaction;
-                }
-                if (((this.Adapter != null) 
-                            && (this.Adapter.DeleteCommand != null))) {
-                    this.Adapter.DeleteCommand.Transaction = this._transaction;
-                }
-                if (((this.Adapter != null) 
-                            && (this.Adapter.InsertCommand != null))) {
-                    this.Adapter.InsertCommand.Transaction = this._transaction;
-                }
-                if (((this.Adapter != null) 
-                            && (this.Adapter.UpdateCommand != null))) {
-                    this.Adapter.UpdateCommand.Transaction = this._transaction;
-                }
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected global::System.Data.SqlClient.SqlCommand[] CommandCollection {
-            get {
-                if ((this._commandCollection == null)) {
-                    this.InitCommandCollection();
-                }
-                return this._commandCollection;
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public bool ClearBeforeFill {
-            get {
-                return this._clearBeforeFill;
-            }
-            set {
-                this._clearBeforeFill = value;
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private void InitAdapter() {
-            this._adapter = new global::System.Data.SqlClient.SqlDataAdapter();
-            global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
-            tableMapping.SourceTable = "Table";
-            tableMapping.DataSetTable = "SeansbilgiTrig";
-            tableMapping.ColumnMappings.Add("islemid", "islemid");
-            tableMapping.ColumnMappings.Add("islemturu", "islemturu");
-            tableMapping.ColumnMappings.Add("durum", "durum");
-            this._adapter.TableMappings.Add(tableMapping);
-            this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
-            this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = "DELETE FROM [dbo].[SeansbilgiTrig] WHERE (([islemid] = @Original_islemid) AND ((@" +
-                "IsNull_islemturu = 1 AND [islemturu] IS NULL) OR ([islemturu] = @Original_islemt" +
-                "uru)) AND ((@IsNull_durum = 1 AND [durum] IS NULL) OR ([durum] = @Original_durum" +
-                ")))";
-            this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_islemid", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "islemid", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_islemturu", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "islemturu", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_islemturu", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "islemturu", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_durum", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "durum", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_durum", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "durum", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
-            this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[SeansbilgiTrig] ([islemturu], [durum]) VALUES (@islemturu, @du" +
-                "rum);\r\nSELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = SCO" +
-                "PE_IDENTITY())";
-            this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@islemturu", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "islemturu", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@durum", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "durum", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
-            this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[SeansbilgiTrig] SET [islemturu] = @islemturu, [durum] = @durum WHERE (([islemid] = @Original_islemid) AND ((@IsNull_islemturu = 1 AND [islemturu] IS NULL) OR ([islemturu] = @Original_islemturu)) AND ((@IsNull_durum = 1 AND [durum] IS NULL) OR ([durum] = @Original_durum)));
-SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)";
-            this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@islemturu", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "islemturu", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@durum", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "durum", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_islemid", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "islemid", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_islemturu", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "islemturu", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_islemturu", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "islemturu", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_durum", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "durum", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_durum", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "durum", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@islemid", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "islemid", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private void InitConnection() {
-            this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::SinemaOtomasyonu.Properties.Settings.Default.SinemaOtomasyonuConnectionString;
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
-            this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
-            this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT islemid, islemturu, durum FROM dbo.SeansbilgiTrig";
-            this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.SeansbilgiTrigDataTable dataTable) {
-            this.Adapter.SelectCommand = this.CommandCollection[0];
-            if ((this.ClearBeforeFill == true)) {
-                dataTable.Clear();
-            }
-            int returnValue = this.Adapter.Fill(dataTable);
-            return returnValue;
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.SeansbilgiTrigDataTable GetData() {
-            this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.SeansbilgiTrigDataTable dataTable = new SinemaOtomasyonuDataSet.SeansbilgiTrigDataTable();
-            this.Adapter.Fill(dataTable);
-            return dataTable;
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.SeansbilgiTrigDataTable dataTable) {
-            return this.Adapter.Update(dataTable);
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
-            return this.Adapter.Update(dataSet, "SeansbilgiTrig");
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(global::System.Data.DataRow dataRow) {
-            return this.Adapter.Update(new global::System.Data.DataRow[] {
-                        dataRow});
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(global::System.Data.DataRow[] dataRows) {
-            return this.Adapter.Update(dataRows);
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(int Original_islemid, string Original_islemturu, string Original_durum) {
-            this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_islemid));
-            if ((Original_islemturu == null)) {
-                this.Adapter.DeleteCommand.Parameters[1].Value = ((object)(1));
-                this.Adapter.DeleteCommand.Parameters[2].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.DeleteCommand.Parameters[1].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[2].Value = ((string)(Original_islemturu));
-            }
-            if ((Original_durum == null)) {
-                this.Adapter.DeleteCommand.Parameters[3].Value = ((object)(1));
-                this.Adapter.DeleteCommand.Parameters[4].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.DeleteCommand.Parameters[3].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[4].Value = ((string)(Original_durum));
-            }
-            global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
-            if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
-                        != global::System.Data.ConnectionState.Open)) {
-                this.Adapter.DeleteCommand.Connection.Open();
-            }
-            try {
-                int returnValue = this.Adapter.DeleteCommand.ExecuteNonQuery();
-                return returnValue;
-            }
-            finally {
-                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
-                    this.Adapter.DeleteCommand.Connection.Close();
-                }
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(string islemturu, string durum) {
-            if ((islemturu == null)) {
-                this.Adapter.InsertCommand.Parameters[0].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(islemturu));
-            }
-            if ((durum == null)) {
-                this.Adapter.InsertCommand.Parameters[1].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[1].Value = ((string)(durum));
-            }
-            global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
-            if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
-                        != global::System.Data.ConnectionState.Open)) {
-                this.Adapter.InsertCommand.Connection.Open();
-            }
-            try {
-                int returnValue = this.Adapter.InsertCommand.ExecuteNonQuery();
-                return returnValue;
-            }
-            finally {
-                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
-                    this.Adapter.InsertCommand.Connection.Close();
-                }
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string islemturu, string durum, int Original_islemid, string Original_islemturu, string Original_durum, int islemid) {
-            if ((islemturu == null)) {
-                this.Adapter.UpdateCommand.Parameters[0].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[0].Value = ((string)(islemturu));
-            }
-            if ((durum == null)) {
-                this.Adapter.UpdateCommand.Parameters[1].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[1].Value = ((string)(durum));
-            }
-            this.Adapter.UpdateCommand.Parameters[2].Value = ((int)(Original_islemid));
-            if ((Original_islemturu == null)) {
-                this.Adapter.UpdateCommand.Parameters[3].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[4].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[3].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[4].Value = ((string)(Original_islemturu));
-            }
-            if ((Original_durum == null)) {
-                this.Adapter.UpdateCommand.Parameters[5].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[6].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[5].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[6].Value = ((string)(Original_durum));
-            }
-            this.Adapter.UpdateCommand.Parameters[7].Value = ((int)(islemid));
-            global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
-            if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
-                        != global::System.Data.ConnectionState.Open)) {
-                this.Adapter.UpdateCommand.Connection.Open();
-            }
-            try {
-                int returnValue = this.Adapter.UpdateCommand.ExecuteNonQuery();
-                return returnValue;
-            }
-            finally {
-                if ((previousConnectionState == global::System.Data.ConnectionState.Closed)) {
-                    this.Adapter.UpdateCommand.Connection.Close();
-                }
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string islemturu, string durum, int Original_islemid, string Original_islemturu, string Original_durum) {
-            return this.Update(islemturu, durum, Original_islemid, Original_islemturu, Original_durum, Original_islemid);
-        }
-    }
-    
-    /// <summary>
     ///TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
     ///</summary>
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7510,8 +6706,6 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         private Salonbilgi_TrigTableAdapter _salonbilgi_TrigTableAdapter;
         
         private SeansBilgiTableAdapter _seansBilgiTableAdapter;
-        
-        private SeansbilgiTrigTableAdapter _seansbilgiTrigTableAdapter;
         
         private bool _backupDataSetBeforeUpdate;
         
@@ -7642,20 +6836,6 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
-            "ft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
-            "a", "System.Drawing.Design.UITypeEditor")]
-        public SeansbilgiTrigTableAdapter SeansbilgiTrigTableAdapter {
-            get {
-                return this._seansbilgiTrigTableAdapter;
-            }
-            set {
-                this._seansbilgiTrigTableAdapter = value;
-            }
-        }
-        
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public bool BackupDataSetBeforeUpdate {
             get {
                 return this._backupDataSetBeforeUpdate;
@@ -7705,10 +6885,6 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
                             && (this._seansBilgiTableAdapter.Connection != null))) {
                     return this._seansBilgiTableAdapter.Connection;
                 }
-                if (((this._seansbilgiTrigTableAdapter != null) 
-                            && (this._seansbilgiTrigTableAdapter.Connection != null))) {
-                    return this._seansbilgiTrigTableAdapter.Connection;
-                }
                 return null;
             }
             set {
@@ -7746,9 +6922,6 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
                 if ((this._seansBilgiTableAdapter != null)) {
                     count = (count + 1);
                 }
-                if ((this._seansbilgiTrigTableAdapter != null)) {
-                    count = (count + 1);
-                }
                 return count;
             }
         }
@@ -7758,7 +6931,7 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateUpdatedRows(SinemaOtomasyonuDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(SinemaOtomasyonuDataSet4 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._adminbilgiTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.Adminbilgi.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -7832,15 +7005,6 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
                     allChangedRows.AddRange(updatedRows);
                 }
             }
-            if ((this._seansbilgiTrigTableAdapter != null)) {
-                global::System.Data.DataRow[] updatedRows = dataSet.SeansbilgiTrig.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
-                updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
-                if (((updatedRows != null) 
-                            && (0 < updatedRows.Length))) {
-                    result = (result + this._seansbilgiTrigTableAdapter.Update(updatedRows));
-                    allChangedRows.AddRange(updatedRows);
-                }
-            }
             return result;
         }
         
@@ -7849,7 +7013,7 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateInsertedRows(SinemaOtomasyonuDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(SinemaOtomasyonuDataSet4 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._adminbilgiTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.Adminbilgi.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -7915,14 +7079,6 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
                     allAddedRows.AddRange(addedRows);
                 }
             }
-            if ((this._seansbilgiTrigTableAdapter != null)) {
-                global::System.Data.DataRow[] addedRows = dataSet.SeansbilgiTrig.Select(null, null, global::System.Data.DataViewRowState.Added);
-                if (((addedRows != null) 
-                            && (0 < addedRows.Length))) {
-                    result = (result + this._seansbilgiTrigTableAdapter.Update(addedRows));
-                    allAddedRows.AddRange(addedRows);
-                }
-            }
             return result;
         }
         
@@ -7931,16 +7087,8 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateDeletedRows(SinemaOtomasyonuDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(SinemaOtomasyonuDataSet4 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
-            if ((this._seansbilgiTrigTableAdapter != null)) {
-                global::System.Data.DataRow[] deletedRows = dataSet.SeansbilgiTrig.Select(null, null, global::System.Data.DataViewRowState.Deleted);
-                if (((deletedRows != null) 
-                            && (0 < deletedRows.Length))) {
-                    result = (result + this._seansbilgiTrigTableAdapter.Update(deletedRows));
-                    allChangedRows.AddRange(deletedRows);
-                }
-            }
             if ((this._seansBilgiTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.SeansBilgi.Select(null, null, global::System.Data.DataViewRowState.Deleted);
                 if (((deletedRows != null) 
@@ -8037,7 +7185,7 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public virtual int UpdateAll(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int UpdateAll(SinemaOtomasyonuDataSet4 dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
@@ -8081,11 +7229,6 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
             }
             if (((this._seansBilgiTableAdapter != null) 
                         && (this.MatchTableAdapterConnection(this._seansBilgiTableAdapter.Connection) == false))) {
-                throw new global::System.ArgumentException("TableAdapterManager tarafından yönetilen tüm TableAdapter\'lar aynı bağlantı dizes" +
-                        "ini kullanmalıdır.");
-            }
-            if (((this._seansbilgiTrigTableAdapter != null) 
-                        && (this.MatchTableAdapterConnection(this._seansbilgiTrigTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("TableAdapterManager tarafından yönetilen tüm TableAdapter\'lar aynı bağlantı dizes" +
                         "ini kullanmalıdır.");
             }
@@ -8193,15 +7336,6 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
                         adaptersWithAcceptChangesDuringUpdate.Add(this._seansBilgiTableAdapter.Adapter);
                     }
                 }
-                if ((this._seansbilgiTrigTableAdapter != null)) {
-                    revertConnections.Add(this._seansbilgiTrigTableAdapter, this._seansbilgiTrigTableAdapter.Connection);
-                    this._seansbilgiTrigTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
-                    this._seansbilgiTrigTableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
-                    if (this._seansbilgiTrigTableAdapter.Adapter.AcceptChangesDuringUpdate) {
-                        this._seansbilgiTrigTableAdapter.Adapter.AcceptChangesDuringUpdate = false;
-                        adaptersWithAcceptChangesDuringUpdate.Add(this._seansbilgiTrigTableAdapter.Adapter);
-                    }
-                }
                 // 
                 //---- Perform updates -----------
                 //
@@ -8291,10 +7425,6 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
                 if ((this._seansBilgiTableAdapter != null)) {
                     this._seansBilgiTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._seansBilgiTableAdapter]));
                     this._seansBilgiTableAdapter.Transaction = null;
-                }
-                if ((this._seansbilgiTrigTableAdapter != null)) {
-                    this._seansbilgiTrigTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._seansbilgiTrigTableAdapter]));
-                    this._seansbilgiTrigTableAdapter.Transaction = null;
                 }
                 if ((0 < adaptersWithAcceptChangesDuringUpdate.Count)) {
                     global::System.Data.Common.DataAdapter[] adapters = new System.Data.Common.DataAdapter[adaptersWithAcceptChangesDuringUpdate.Count];

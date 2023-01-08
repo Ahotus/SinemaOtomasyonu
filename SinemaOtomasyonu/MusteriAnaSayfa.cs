@@ -7,14 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace SinemaOtomasyonu
 {
-    public partial class SalonEkle : Form
+    public partial class MusteriAnaSayfa : Form
     {
-        public SalonEkle()
+        public MusteriAnaSayfa()
         {
             InitializeComponent();
+        }
+
+        private void Sorgula_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

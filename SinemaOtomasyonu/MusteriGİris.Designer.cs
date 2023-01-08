@@ -109,7 +109,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(580, 288);
             this.Controls.Add(this.sifreyigoster);
             this.Controls.Add(this.yanlisGirisLabel);
@@ -120,6 +120,7 @@
             this.Controls.Add(this.label1);
             this.Name = "MusteriGİris";
             this.Text = "MusteriGİris";
+            this.Load += new System.EventHandler(this.MusteriGİris_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

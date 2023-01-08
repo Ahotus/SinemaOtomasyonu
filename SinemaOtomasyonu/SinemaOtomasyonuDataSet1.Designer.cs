@@ -20,9 +20,9 @@ namespace SinemaOtomasyonu {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("SinemaOtomasyonuDataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("SinemaOtomasyonuDataSet1")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class SinemaOtomasyonuDataSet : global::System.Data.DataSet {
+    public partial class SinemaOtomasyonuDataSet1 : global::System.Data.DataSet {
         
         private AdminbilgiDataTable tableAdminbilgi;
         
@@ -46,7 +46,7 @@ namespace SinemaOtomasyonu {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public SinemaOtomasyonuDataSet() {
+        public SinemaOtomasyonuDataSet1() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -57,7 +57,7 @@ namespace SinemaOtomasyonu {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected SinemaOtomasyonuDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected SinemaOtomasyonuDataSet1(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -247,7 +247,7 @@ namespace SinemaOtomasyonu {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            SinemaOtomasyonuDataSet cln = ((SinemaOtomasyonuDataSet)(base.Clone()));
+            SinemaOtomasyonuDataSet1 cln = ((SinemaOtomasyonuDataSet1)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -391,9 +391,9 @@ namespace SinemaOtomasyonu {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "SinemaOtomasyonuDataSet";
+            this.DataSetName = "SinemaOtomasyonuDataSet1";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/SinemaOtomasyonuDataSet.xsd";
+            this.Namespace = "http://tempuri.org/SinemaOtomasyonuDataSet1.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tableAdminbilgi = new AdminbilgiDataTable();
@@ -481,7 +481,7 @@ namespace SinemaOtomasyonu {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+            SinemaOtomasyonuDataSet1 ds = new SinemaOtomasyonuDataSet1();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -785,7 +785,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet1 ds = new SinemaOtomasyonuDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1077,7 +1077,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet1 ds = new SinemaOtomasyonuDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1384,7 +1384,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet1 ds = new SinemaOtomasyonuDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1676,7 +1676,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet1 ds = new SinemaOtomasyonuDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1968,7 +1968,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet1 ds = new SinemaOtomasyonuDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2245,7 +2245,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet1 ds = new SinemaOtomasyonuDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2527,7 +2527,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet1 ds = new SinemaOtomasyonuDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2848,7 +2848,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet1 ds = new SinemaOtomasyonuDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3140,7 +3140,7 @@ namespace SinemaOtomasyonu {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                SinemaOtomasyonuDataSet ds = new SinemaOtomasyonuDataSet();
+                SinemaOtomasyonuDataSet1 ds = new SinemaOtomasyonuDataSet1();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4300,7 +4300,7 @@ namespace SinemaOtomasyonu {
         }
     }
 }
-namespace SinemaOtomasyonu.SinemaOtomasyonuDataSetTableAdapters {
+namespace SinemaOtomasyonu.SinemaOtomasyonuDataSet1TableAdapters {
     
     
     /// <summary>
@@ -4481,7 +4481,7 @@ SELECT Adminid, AdminkAdi, AdminSifre FROM Adminbilgi WHERE (Adminid = @Adminid)
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.AdminbilgiDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet1.AdminbilgiDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -4494,9 +4494,9 @@ SELECT Adminid, AdminkAdi, AdminSifre FROM Adminbilgi WHERE (Adminid = @Adminid)
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.AdminbilgiDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet1.AdminbilgiDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.AdminbilgiDataTable dataTable = new SinemaOtomasyonuDataSet.AdminbilgiDataTable();
+            SinemaOtomasyonuDataSet1.AdminbilgiDataTable dataTable = new SinemaOtomasyonuDataSet1.AdminbilgiDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -4504,14 +4504,14 @@ SELECT Adminid, AdminkAdi, AdminSifre FROM Adminbilgi WHERE (Adminid = @Adminid)
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.AdminbilgiDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet1.AdminbilgiDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Adminbilgi");
         }
         
@@ -4839,7 +4839,7 @@ SELECT Calisanid, CalisankAdi, CalisanSifre FROM Calisanbilgi WHERE (Calisanid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.CalisanbilgiDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet1.CalisanbilgiDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -4852,9 +4852,9 @@ SELECT Calisanid, CalisankAdi, CalisanSifre FROM Calisanbilgi WHERE (Calisanid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.CalisanbilgiDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet1.CalisanbilgiDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.CalisanbilgiDataTable dataTable = new SinemaOtomasyonuDataSet.CalisanbilgiDataTable();
+            SinemaOtomasyonuDataSet1.CalisanbilgiDataTable dataTable = new SinemaOtomasyonuDataSet1.CalisanbilgiDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -4862,14 +4862,14 @@ SELECT Calisanid, CalisankAdi, CalisanSifre FROM Calisanbilgi WHERE (Calisanid =
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.CalisanbilgiDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet1.CalisanbilgiDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Calisanbilgi");
         }
         
@@ -5204,7 +5204,7 @@ SELECT FilmNo, FilmAd, FilmTur, Tarih FROM FilmBİlgi WHERE (FilmNo = @FilmNo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.FilmBİlgiDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet1.FilmBİlgiDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -5217,9 +5217,9 @@ SELECT FilmNo, FilmAd, FilmTur, Tarih FROM FilmBİlgi WHERE (FilmNo = @FilmNo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.FilmBİlgiDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet1.FilmBİlgiDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.FilmBİlgiDataTable dataTable = new SinemaOtomasyonuDataSet.FilmBİlgiDataTable();
+            SinemaOtomasyonuDataSet1.FilmBİlgiDataTable dataTable = new SinemaOtomasyonuDataSet1.FilmBİlgiDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -5227,14 +5227,14 @@ SELECT FilmNo, FilmAd, FilmTur, Tarih FROM FilmBİlgi WHERE (FilmNo = @FilmNo)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.FilmBİlgiDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet1.FilmBİlgiDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "FilmBİlgi");
         }
         
@@ -5593,7 +5593,7 @@ SELECT islemId, islemturu, durum FROM FilmBilgi_Trig WHERE (islemId = @islemId)"
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.FilmBilgi_TrigDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet1.FilmBilgi_TrigDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -5606,9 +5606,9 @@ SELECT islemId, islemturu, durum FROM FilmBilgi_Trig WHERE (islemId = @islemId)"
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.FilmBilgi_TrigDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet1.FilmBilgi_TrigDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.FilmBilgi_TrigDataTable dataTable = new SinemaOtomasyonuDataSet.FilmBilgi_TrigDataTable();
+            SinemaOtomasyonuDataSet1.FilmBilgi_TrigDataTable dataTable = new SinemaOtomasyonuDataSet1.FilmBilgi_TrigDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -5616,14 +5616,14 @@ SELECT islemId, islemturu, durum FROM FilmBilgi_Trig WHERE (islemId = @islemId)"
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.FilmBilgi_TrigDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet1.FilmBilgi_TrigDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "FilmBilgi_Trig");
         }
         
@@ -5951,7 +5951,7 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.MusteribilgiDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet1.MusteribilgiDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -5964,9 +5964,9 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.MusteribilgiDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet1.MusteribilgiDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.MusteribilgiDataTable dataTable = new SinemaOtomasyonuDataSet.MusteribilgiDataTable();
+            SinemaOtomasyonuDataSet1.MusteribilgiDataTable dataTable = new SinemaOtomasyonuDataSet1.MusteribilgiDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -5974,14 +5974,14 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.MusteribilgiDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet1.MusteribilgiDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Musteribilgi");
         }
         
@@ -6304,7 +6304,7 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.SalonbilgiDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet1.SalonbilgiDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6317,9 +6317,9 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.SalonbilgiDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet1.SalonbilgiDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.SalonbilgiDataTable dataTable = new SinemaOtomasyonuDataSet.SalonbilgiDataTable();
+            SinemaOtomasyonuDataSet1.SalonbilgiDataTable dataTable = new SinemaOtomasyonuDataSet1.SalonbilgiDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6327,14 +6327,14 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.SalonbilgiDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet1.SalonbilgiDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Salonbilgi");
         }
         
@@ -6611,7 +6611,7 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.Salonbilgi_TrigDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet1.Salonbilgi_TrigDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6624,9 +6624,9 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.Salonbilgi_TrigDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet1.Salonbilgi_TrigDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.Salonbilgi_TrigDataTable dataTable = new SinemaOtomasyonuDataSet.Salonbilgi_TrigDataTable();
+            SinemaOtomasyonuDataSet1.Salonbilgi_TrigDataTable dataTable = new SinemaOtomasyonuDataSet1.Salonbilgi_TrigDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6634,14 +6634,14 @@ SELECT Musteriid, MusterikAdi, MusteriSifre FROM Musteribilgi WHERE (Musteriid =
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.Salonbilgi_TrigDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet1.Salonbilgi_TrigDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "Salonbilgi_Trig");
         }
         
@@ -6886,7 +6886,7 @@ SELECT SeansId, FilmAd, SalonAd, tarih, saat FROM SeansBilgi WHERE (SeansId = @S
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.SeansBilgiDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet1.SeansBilgiDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6899,9 +6899,9 @@ SELECT SeansId, FilmAd, SalonAd, tarih, saat FROM SeansBilgi WHERE (SeansId = @S
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.SeansBilgiDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet1.SeansBilgiDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.SeansBilgiDataTable dataTable = new SinemaOtomasyonuDataSet.SeansBilgiDataTable();
+            SinemaOtomasyonuDataSet1.SeansBilgiDataTable dataTable = new SinemaOtomasyonuDataSet1.SeansBilgiDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6909,14 +6909,14 @@ SELECT SeansId, FilmAd, SalonAd, tarih, saat FROM SeansBilgi WHERE (SeansId = @S
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.SeansBilgiDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet1.SeansBilgiDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "SeansBilgi");
         }
         
@@ -7303,7 +7303,7 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(SinemaOtomasyonuDataSet.SeansbilgiTrigDataTable dataTable) {
+        public virtual int Fill(SinemaOtomasyonuDataSet1.SeansbilgiTrigDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -7316,9 +7316,9 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual SinemaOtomasyonuDataSet.SeansbilgiTrigDataTable GetData() {
+        public virtual SinemaOtomasyonuDataSet1.SeansbilgiTrigDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            SinemaOtomasyonuDataSet.SeansbilgiTrigDataTable dataTable = new SinemaOtomasyonuDataSet.SeansbilgiTrigDataTable();
+            SinemaOtomasyonuDataSet1.SeansbilgiTrigDataTable dataTable = new SinemaOtomasyonuDataSet1.SeansbilgiTrigDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -7326,14 +7326,14 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet.SeansbilgiTrigDataTable dataTable) {
+        public virtual int Update(SinemaOtomasyonuDataSet1.SeansbilgiTrigDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int Update(SinemaOtomasyonuDataSet1 dataSet) {
             return this.Adapter.Update(dataSet, "SeansbilgiTrig");
         }
         
@@ -7758,7 +7758,7 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateUpdatedRows(SinemaOtomasyonuDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(SinemaOtomasyonuDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._adminbilgiTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.Adminbilgi.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -7849,7 +7849,7 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateInsertedRows(SinemaOtomasyonuDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(SinemaOtomasyonuDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._adminbilgiTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.Adminbilgi.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -7931,7 +7931,7 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateDeletedRows(SinemaOtomasyonuDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(SinemaOtomasyonuDataSet1 dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._seansbilgiTrigTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.SeansbilgiTrig.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -8037,7 +8037,7 @@ SELECT islemid, islemturu, durum FROM SeansbilgiTrig WHERE (islemid = @islemid)"
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public virtual int UpdateAll(SinemaOtomasyonuDataSet dataSet) {
+        public virtual int UpdateAll(SinemaOtomasyonuDataSet1 dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
